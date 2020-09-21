@@ -1,0 +1,8 @@
+-----REDUX-----
+
+Installation.
+
+1 - npm install redux
+2 - npm install react-redux // library to help connecting react to redux, 
+
+3 -   
