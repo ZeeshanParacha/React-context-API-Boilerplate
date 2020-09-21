@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Router } from 'react-router-dom';
-import Home from './components/home';
+import { Home } from './components/home';
 import About from './components/about';
 import createBrowserHistory from 'history/createBrowserHistory'
 
