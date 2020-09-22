@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
-import Routers from './Route';
+import React from "react";
+import "./stye.css";
+import Users from "./Users";
+import { UsersProvider } from "./Context/UserContext";
 
-
-class App extends Component {
-  render() {
-    return (
-      <Routers />
-    );
-  }
+export default function App() {
+  return (
+    <UsersProvider>
+      <div className="App">
+        <h1>Hello Hoooooks</h1>
+        <Users />
+      </div>
+    </UsersProvider>
+  );
 }
-
-export default App;
